@@ -1,0 +1,124 @@
+body {
+    background-color: #f8f9fa;
+}
+
+.navbar {
+    margin-bottom: 20px;
+}
+
+.card {
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+    margin-bottom: 20px;
+}
+
+.table th {
+    background-color: #343a40;
+    color: white;
+}
+
+.badge {
+    font-size: 0.9em;
+    padding: 0.4em 0.6em;
+}
+
+.jumbotron {
+    background-color: #e9ecef;
+    padding: 2rem;
+}
+
+
+.priority-high {
+    border-left: 4px solid #dc3545;
+}
+
+.priority-medium {
+    border-left: 4px solid #ffc107;
+}
+
+.priority-low {
+    border-left: 4px solid #6c757d;
+}
+
+
+.status-pending {
+    background-color: #fff3cd;
+}
+
+.status-in-progress {
+    background-color: #d1ecf1;
+}
+
+.status-completed {
+    background-color: #d4edda;
+}
+
+
+.form-group label {
+    font-weight: 500;
+}
+
+.btn-group .btn {
+    margin-right: 5px;
+}
+
+
+
+.dashboard-container {
+    padding: 20px 0;
+}
+
+.stat-card {
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.stat-card:hover {
+    transform: translateY(-5px);
+}
+
+.stat-number {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.pending-card {
+    border-left: 4px solid #ffc107;
+}
+
+.progress-card {
+    border-left: 4px solid #17a2b8;
+}
+
+.completed-card {
+    border-left: 4px solid #28a745;
+}
+
+.list-group-item i {
+    margin-right: 10px;
+}
+
+.list-group-item:hover {
+    background-color: #f8f9fa;
+}
+
+
+.table th {
+    background-color: #f8f9fa;
+}
+
+.table-hover tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
+.jumbotron:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1) !important;
+    }
+
+    .hover-btn:hover {
+        transform: translateY(-3px);
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    }
